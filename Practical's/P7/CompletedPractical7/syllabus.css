@@ -1,0 +1,21 @@
+	img {float: right;}
+		h1 {text-align:center;}
+		body {font-family:calibri;font-size: smaller}
+        header, footer, section {padding:2em;}
+        
+        #container { width:80%; margin:auto; }
+    
+        .color1 { background-color: #d5f4e6; }
+        
+        .color2 { background-color: #80ced6; }
+        
+        .color3 { background-color: #fefbd8; }
+        
+        .color4 { background-color: #618685; }
+        
+        #bookTable{ border: 1px solid #000;  border-collapse: collapse; }
+        
+        #bookTable td,
+        #bookTable th {
+        padding: 10px;
+        border: 1px solid #000;}

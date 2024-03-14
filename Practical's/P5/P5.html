@@ -1,0 +1,171 @@
+<!doctype html>
+
+<html lang= "en">
+
+
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+<title>Forms</title>
+    
+</head>
+    
+
+<body>
+    
+  <form>  
+    <h1>Forms</h1>
+    <h2>Activity 1:implisit association</h2>
+    
+    <p><label>First Name: <input type="text" name="firstName" size="23"></label></p>
+    <p><label>Second Name: <input type="text" name="SecondName" size="20"> </label></p>
+    
+    <input type = "submit" value = "submit Query">
+    
+  </form>
+    
+
+   
+        
+<form>  
+    <h1>Forms</h1>
+    <h2>Activity 2:Explisit association</h2>
+    
+    <p><label for = "FirstName2" > First Name:</label> <input type="text" name="firstName2" id="FirstName2" size="23"></p>
+    
+     <p><label for = "SecondName2" > Second Name:</label> <input type="text" name="SecondName2" id="SecondName2" size="23"></p>
+    
+     <input type = "submit" value = "submit Query">
+       
+</form>
+    
+<form> 
+    
+<fieldset>
+    
+ <legend>
+    Student information
+</legend>
+    
+    <p><label for = "Name" > Name:</label> <input type="text" name="firstName3" id="Name" size="23"></p>
+    
+    <p><label  for = "Mobile" >Mobile: </label> <input type="text" name="Mobile" id= "Mobile" size="23"></p>
+    
+    <p><label  for = "Email" > Email: </label> <input type="text" name="Email" id="Email" size="23"></p>
+    
+    
+    
+    <p><label for = "CollegeName" >College Name </label> <textarea name="CollegeName" id="CollegeName"> </textarea></p>
+    
+    <p><label for = "CollegeAddress" >College Address </label> <textarea name="CollegeAddress" id="CollegeAddress"> </textarea></p>
+    
+     <label> Year of Graduation <select name="Year of Graduation" size="1">
+    
+    
+        <option value ="2010">2010</option>
+        <option value ="2011">2011</option>        
+        <option value ="2012">2012</option>
+        <option value ="2013">2013</option>
+        <option value ="2014">2014</option>
+        <option value ="2015">2015</option>
+        <option value ="2016" selected>2016</option>
+        <option value ="2017">2017</option>
+        <option value ="2018">2018</option>
+        <option value ="2019">2019</option>
+       
+    </select>
+    
+     </label>
+    
+    
+    <fieldset>
+        
+    <legend>
+    Mature Student
+    </legend>    
+         
+              
+        <label>  <input type="radio" name="matureStudent">Yes </label>
+        <label>  <input type="radio" name="matureStudent" size="23" checked>No</label>
+                
+        </fieldset>
+        
+    
+       <fieldset>
+    
+    <legend>
+    Are you in recipt of a grant?
+    </legend>    
+        
+                                    
+        <label>  <input type="radio" name="grant" size="23">Yes </label>
+        <label>  <input type="radio" name="grant" size="23" checked>No</label>
+        
+        
+           
+    </fieldset>
+    
+    <fieldset>
+    
+    <legend>
+    Award type 
+    </legend>    
+        
+
+              
+        <label>  <input type="radio" name="AwardType" size="23">Higher Certificate </label>
+        <label>  <input type="radio" name="AwardType" size="23">Ordinary Degree</label>
+        <label>  <input type="radio" name="AwardType" size="23">Honours Degree</label>
+        <label>  <input type="radio" name="AwardType" size="23">Masters</label>   
+        <label>  <input type="radio" name="AwardType" size="23">Others (please specify)</label>
+        <label>  <input type="text"  name="AwardType" size="23"></label>
+    
+        </fieldset>
+   
+    
+    <p><label> Faculty: <select name="Faculty" size="1">
+    
+    
+        <option value = "Art & Design">Art & Design</option>
+        <option value = "Applied Science,Engineering & Technology" selected>Applied Science, Engineering & Technology</option> 
+        <option value = "Business & Humanities">Business & Humanities</option>
+    
+    </select>
+
+        </label> </p>
+
+       
+    
+        <fieldset> 
+    
+    <legend>
+    If you would like to receive information about current courses please tick the appropriate boxes:  
+    </legend>    
+        
+
+              
+        <label>  <input type="checkbox" name="Fine Art">Fine Art </label>
+        <label>  <input type="checkbox" name="Design">Design</label>
+        <label>  <input type="checkbox" name="Sience">Science</label>
+        <label>  <input type="checkbox" name="Engenering" >Engineering</label>   
+        <label>  <input type="checkbox" name="IT">IT</label>
+        <label>  <input type="checkbox" name="Business">Business</label>
+        <label>  <input type="checkbox" name="Humanities">Humanities</label>   
+        <label>  <input type="checkbox" name="Quantity Surveying">Quantity Surveying</label>    
+    
+        </fieldset>
+    
+    
+   <p><input type = "submit" value = "submit"></p>
+    
+    </fieldset>
+    
+       
+</form>
+    
+    </body>   
+    
+    
+</html>

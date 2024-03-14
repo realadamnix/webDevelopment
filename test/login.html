@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <style>
+    .container {
+      width: 500px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .logo {
+      width: 200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 30px;
+      color: #000;
+    }
+
+    form {
+      margin-top: 20px;
+      background: linear-gradient(to right, #fff, #ccc);
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #000;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Center the text in the headings and the login button */
+    h1, button {
+      text-align: center;
+    }
+
+    .animated {
+      animation: fade-in 1s;
+    }
+
+    @keyframes fade-in {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.imgur.com/logo.png" alt="Logo" class="logo">
+    <h1>Login</h1>
+    <form action="/login" method="post">
+      <input type="text" name="username" placeholder="Username">
+      <input type="password" name="password" placeholder="Password">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+  <script>
+    // Add a nice animation to the logo when the page loads
+    const logo = document.querySelector(".logo");
+
+    logo.addEventListener("load", function() {
+      this.classList.add("animated");
+    });
+
+    // Add a nice animation to the login button when the user hovers over it
+    const loginButton = document.querySelector("button");
+
+    loginButton.addEventListener("mouseover", function() {
+      this.classList.add("animated");
+    });
+
+    loginButton.addEventListener("mouseout", function() {
+      this.classList.remove("animated");
+    });
+  </script>
+</body>
+</html>

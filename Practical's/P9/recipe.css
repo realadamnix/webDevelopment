@@ -1,0 +1,132 @@
+ body {
+        
+        font-family: Calibri, sans-serif;
+        background-color: #CAFEB8;   
+    }
+    
+header {
+        
+        border: 1px solid black;
+        margin: 1em;
+        padding: 0 2em;
+        background-color: #89FC63;
+
+    }
+
+main {
+        
+        display:flex;
+          
+    }
+    
+#ingredients {
+        
+        border: 1px solid black;
+        margin-top:     1em;
+        margin-right:   1em;
+        margin-left:    1em;
+        margin-bottom : 1em;
+        padding-top:    1em;
+        padding-right:  2em;
+        padding-left:   2em;
+        padding-bottom: 1em;
+        background-color:#B4D1B6;
+        flex: 32;           
+    }
+    
+#method {
+        
+        border: 1px solid black;
+        margin-top:     1em;
+        margin-right:   1em;
+        margin-left:    1em;
+        margin-bottom:  1em;
+        padding-top:    1em;
+        padding-right:  2em;
+        padding-left:   2em;
+        padding-bottom: 1em;
+        background-color: #FFFF99;
+        flex: 50;            
+    }
+    
+footer {
+        
+        border: 1px solid black;
+        margin-top:     1em;
+        margin-right:   1em;
+        margin-left:    1em;
+        margin-bottom:  1em;
+        padding-top:    1em;
+        padding-right:  1em;
+        padding-left:   1em;
+        padding-bottom: 1em;   
+        background-color: #AAFD8E;
+    }
+    
+#spices {
+        
+        display: block;
+        margin: auto;
+    }
+
+.metrics {
+        
+        
+        font-style: italic;
+        color: #555555;    
+    }   
+    
+.minutes {
+        
+
+        font-weight: bold;
+        color: coral;
+    }   
+
+    
+#content {
+    
+        border: 1px solid black;
+        margin-top:     1em;
+        margin-right:   1em;
+        margin-left:    1em;
+        margin-bottom:  1em;
+        padding-top:    1em;
+        padding-right:  2em;
+        padding-left:   2em;
+        padding-bottom: 1em; 
+        background-color: #B4D1B6 
+    }
+
+dt {
+    
+        font-weight: bold;
+        color: darkred;
+        line-height: 1.4;
+        font-size: 1.2em
+        
+    }
+
+nav li {
+        display: inline-block;
+         
+
+    }
+
+nav  {
+        border: 1px solid black;
+        margin: 1em;
+        padding: 2em;
+        background-color: #89FC63;
+    
+    }
+        
+nav a {
+    
+        text-decoration:none; 
+        color: blue;
+        font-size: 1.3em;
+        margin-left: 47px;
+        }      
+
+

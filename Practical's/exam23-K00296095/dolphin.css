@@ -1,0 +1,192 @@
+    #container {
+        width: 80%;
+        background-color: #FFB365;
+        margin: 0 auto;
+    }
+
+    body {
+        font-family: Calibri, sans-serif;
+        font-size: 1em;
+        
+    }
+
+    ul {
+    list-style-type: none;   
+    }
+
+
+    #globalNav {
+        display: flex;
+
+    }
+
+
+    #globalNav a {
+        font-size: 1.2em;
+        color: #2e3963;
+
+    }
+
+
+    nav {
+        display: flex;
+        padding: 10px; 
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    nav li {
+        margin: 13px;
+          
+    
+    }
+
+    nav a {
+        text-decoration: none;
+    }
+
+
+
+
+   #logo, #menuBar {
+         width: 50%;
+    }
+
+   
+
+    #heroImg img {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h1, h2 {
+        color: #2e3963;
+    }
+
+    h2, h3 {
+        font-size: 1.5em;
+    }
+
+
+    h3 {
+        color: white;
+    }
+
+
+    main {
+        display: flex;
+    }
+
+
+    legend{
+        
+            font-weight: bold;
+            font-size: 1.5em;
+            color: black;
+            
+        }
+
+
+
+      #info  {display: flex;}
+
+      #County {display: flex;}
+         
+      #Sighting {display: flex;
+                margin-top: 1em;
+                
+                 
+        }
+        
+    
+      #textarea {display: flex;
+            margin-top: 1em;
+        }
+
+
+
+
+
+    #reset-submit {
+        display: flex;
+        justify-content: center;     
+        padding-right: 1em;
+        padding-left: 1em;     
+        
+        
+    }
+
+
+
+
+
+    #reset-submit input {
+        margin: 0 10px;
+    }
+
+    
+
+    #reset-submit input {
+        background-color: #00303F;
+        color: #fff;  
+        padding: 5px 10px;
+        border-radius: 0.5em;
+        padding-right: 1em;
+        padding-left: 1em;
+      
+            
+    }
+
+
+    fieldset {
+        width: 80%;
+        border-radius: 1em;
+        background-color: #65B1FF;
+        }
+
+
+
+
+    #leftSection, #rightAside {
+        flex: 46% ;
+        padding-top: 0% ;
+        padding-right:2% ;
+        padding-left:2% ;
+        padding-bottom:3% ;        
+    }
+
+    footer {
+        display: flex;
+        background-color: #192C40;
+        color: white;
+        font-size: 0.8em;
+        height: 16em;
+        }
+
+    
+
+   footer .footerCol {
+    flex: 0 0 28%;
+    padding-left: 3em;
+        }
+
+
+
+    footer a {
+        color: white;
+        text-decoration: none;
+        }
+
+
+
+
+        

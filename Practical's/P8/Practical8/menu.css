@@ -1,0 +1,44 @@
+    body{font-family: Verdana, sans-serif;
+         font-size: medium;
+         background-color: #f9e6ff;}
+    
+    h1{font-size: 1.5em;
+       color: purple;}
+    
+    dt{font-weight: bold;}
+    
+    dt strong {font-style: italic;
+               color: maroon;}
+        
+    h2{font-family: Georgia;
+       font-size: 1em;
+       color: purple;
+       text-transform: uppercase;
+       letter-spacing: 1em}
+    
+    header p{font-style: italic;
+             color: gray;}
+    
+    .price{font-family:Georgia,serif;
+           font-style: italic;}
+    
+    .label{font-variant: small-caps;
+           font-weight: bold;}
+
+    .warning{color: red;
+             font-size: small; }
+    
+    body{font-family: Georgia,serif;
+         line-height: 175%;}
+    
+    header, h2, section p{text-align: center;}
+    
+    section#appetizers p, section#entrees p {font-style: italic;}
+
+    dt {color: olive;}
+    
+    #container{width: 80%;
+               margin: auto;
+               background-color:white;
+               padding: 1em;
+               border: 5px solid purple}
